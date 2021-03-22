@@ -30,6 +30,7 @@ namespace GravityCodeChallenge
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddCors();
             services.AddScoped<IFileService, FileService>();
             services.AddAutoMapper(typeof(Startup));
         }
@@ -46,6 +47,7 @@ namespace GravityCodeChallenge
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+            app.UseCors(policy => policy.WithOrigins("*").WithHeaders("*").WithMethods("*"));
 
             app.UseHttpsRedirection();
             app.UseMvc();

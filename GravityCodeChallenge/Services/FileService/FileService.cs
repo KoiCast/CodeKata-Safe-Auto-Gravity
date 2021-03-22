@@ -23,7 +23,6 @@ namespace GravityCodeChallenge.Services.FileService
                 {
                     using (var stream = new StreamReader(file.OpenReadStream()))
                     {
-                        //var filestring = stream.ReadToEnd();
                         while((line = stream.ReadLine()) != null)
                         {
                             line = line.Trim();
@@ -54,7 +53,6 @@ namespace GravityCodeChallenge.Services.FileService
                             }
                             else
                             {
-                                //probably want to log a nonconforming line?
                                 throw new Exception("The file contains a line with an unknown command.");
                             }
                         }
@@ -75,7 +73,7 @@ namespace GravityCodeChallenge.Services.FileService
                     }
                     reports.Add(driverReport);
                 }
-
+                reports = reports.OrderByDescending(m => m.Distance).ToList();
                 return reports;
             }
             catch(Exception ex)

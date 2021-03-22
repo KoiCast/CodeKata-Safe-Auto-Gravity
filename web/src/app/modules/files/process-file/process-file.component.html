@@ -1,0 +1,14 @@
+<div class="center">
+
+  <ngx-file-drop dropZoneLabel="Drop files here" (onFileDrop)="dropped($event)" 
+  (onFileOver)="fileOver($event)" (onFileLeave)="fileLeave($event)">
+      <ng-template ngx-file-drop-content-tmp let-openFileSelector="openFileSelector">
+        Upload a file!
+        <button type="button" (click)="openFileSelector()">Browse Files</button>
+      </ng-template>
+  </ngx-file-drop>
+
+</div>
+<div *ngFor="let report of proccessedResults">
+  {{report.driverName}}: {{report.distance}} miles @ {{report.speed}} mph
+</div>

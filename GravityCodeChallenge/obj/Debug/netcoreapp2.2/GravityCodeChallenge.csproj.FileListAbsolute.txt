@@ -1,0 +1,14 @@
+C:\Users\Parker\source\repos\GravityCodeChallenge\GravityCodeChallenge\bin\Debug\netcoreapp2.2\GravityCodeChallenge.deps.json
+C:\Users\Parker\source\repos\GravityCodeChallenge\GravityCodeChallenge\bin\Debug\netcoreapp2.2\GravityCodeChallenge.runtimeconfig.json
+C:\Users\Parker\source\repos\GravityCodeChallenge\GravityCodeChallenge\bin\Debug\netcoreapp2.2\GravityCodeChallenge.runtimeconfig.dev.json
+C:\Users\Parker\source\repos\GravityCodeChallenge\GravityCodeChallenge\bin\Debug\netcoreapp2.2\GravityCodeChallenge.dll
+C:\Users\Parker\source\repos\GravityCodeChallenge\GravityCodeChallenge\obj\Debug\netcoreapp2.2\GravityCodeChallenge.csprojAssemblyReference.cache
+C:\Users\Parker\source\repos\GravityCodeChallenge\GravityCodeChallenge\obj\Debug\netcoreapp2.2\GravityCodeChallenge.csproj.CoreCompileInputs.cache
+C:\Users\Parker\source\repos\GravityCodeChallenge\GravityCodeChallenge\obj\Debug\netcoreapp2.2\GravityCodeChallenge.RazorAssemblyInfo.cache
+C:\Users\Parker\source\repos\GravityCodeChallenge\GravityCodeChallenge\obj\Debug\netcoreapp2.2\GravityCodeChallenge.RazorAssemblyInfo.cs
+C:\Users\Parker\source\repos\GravityCodeChallenge\GravityCodeChallenge\obj\Debug\netcoreapp2.2\GravityCodeChallenge.AssemblyInfoInputs.cache
+C:\Users\Parker\source\repos\GravityCodeChallenge\GravityCodeChallenge\obj\Debug\netcoreapp2.2\GravityCodeChallenge.AssemblyInfo.cs
+C:\Users\Parker\source\repos\GravityCodeChallenge\GravityCodeChallenge\obj\Debug\netcoreapp2.2\GravityCodeChallenge.RazorTargetAssemblyInfo.cache
+C:\Users\Parker\source\repos\GravityCodeChallenge\GravityCodeChallenge\bin\Debug\netcoreapp2.2\GravityCodeChallenge.pdb
+C:\Users\Parker\source\repos\GravityCodeChallenge\GravityCodeChallenge\obj\Debug\netcoreapp2.2\GravityCodeChallenge.dll
+C:\Users\Parker\source\repos\GravityCodeChallenge\GravityCodeChallenge\obj\Debug\netcoreapp2.2\GravityCodeChallenge.pdb
